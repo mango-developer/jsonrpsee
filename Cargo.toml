@@ -1,0 +1,18 @@
+[workspace]
+members = [
+	"examples",
+	"benches",
+	"server",
+	"test-utils",
+	"jsonrpsee",
+	"tests",
+	"types",
+	"core",
+	"client/ws-client",
+	"client/http-client",
+	"client/transport",
+	"client/wasm-client",
+	"proc-macros",
+	"wasm-tests",
+]
+resolver = "2"

@@ -1,0 +1,10 @@
+[package]
+name = "jsonrpsee-wasm-client"
+version = "0.16.2"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+jsonrpsee-types = { path = "../../types", version = "0.16.2" }
+jsonrpsee-client-transport = { path = "../transport", version = "0.16.2", features = ["web"] }
+jsonrpsee-core = { path = "../../core", version = "0.16.2", features = ["async-wasm-client"] }
